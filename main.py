@@ -40,7 +40,7 @@ def resizeImage(img: Image, width: int, height: int) -> Image:
         print(f"Image couldn't be resized to {width}x{height}\nError: {e}")
         sys.exit(12)
 
-# save new resized image under original-name_resized_sizeX_sizeY
+# save new resized image
 
 def saveImage(img: Image, filedestination: Path) -> None:
     try:
